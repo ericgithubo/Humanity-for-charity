@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <style>
+        /* Footer Styling */
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            flex-wrap: wrap;
+        }
+
+        /* Logo Section */
+        .footer .logo img {
+            width: 100px;
+        }
+
+        /* Quick Links Section */
+        .footer .quick-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer .quick-links ul li {
+            margin: 5px 0;
+        }
+
+        .footer .quick-links ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Social Media Section */
+        .footer .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .footer .social-media a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .footer {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="path-to-your-logo.png" alt="Logo">
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <a href="https://facebook.com/yourpage" target="_blank">Facebook</a>
+            <a href="https://twitter.com/yourpage" target="_blank">Twitter</a>
+            <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/yourpage" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+</body>
+</html>
