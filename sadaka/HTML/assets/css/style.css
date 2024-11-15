@@ -36,6 +36,7 @@ a:hover, a:focus, a:active {
 .navbar-static-top {
   margin: 0;
   border: 0;
+  position: fixed;
   color: #fff;
 }
 
@@ -43,6 +44,7 @@ a:hover, a:focus, a:active {
   background: #115c9b;
   font-size: 12px;
   padding: 3px 0;
+  
 }
 .navbar-top .list-inline {
   margin-bottom: 0;
