@@ -788,6 +788,8 @@ form .alert {
   }
 }
 /* Medium devices (desktops, 992px and Donw) */
+
+
 @media (max-width: 992px) {
   .carousel-home .carousel-title {
     font-size: 36px;
@@ -798,6 +800,12 @@ form .alert {
   .carousel-home .btn {
     margin-top: 15px;
   }
+
+  .navbar-text{
+    font-size: 10px;
+  }
+
+  
 
   .about-us-col {
     margin-bottom: 25px;
@@ -827,6 +835,10 @@ form .alert {
   .header-social {
     text-align: center;
   }
+
+ /* .navbar-text{
+    margin-top: -40px;
+  }*/
 
   .navbar-main #navbar {
     float: none !important;
@@ -889,6 +901,7 @@ form .alert {
   .carousel-home .carousel-indicators {
     bottom: 0;
   }
+
 }
 /* =============================================================================
 	Animations
